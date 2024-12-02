@@ -1,0 +1,43 @@
+/* General Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: black; /* Black background */
+    color: silver; /* Silver text color */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    line-height: 1.6; /* Better text readability */
+    text-align: center; /* Center-align text for consistency */
+    margin: 0;
+    padding: 20px; /* Add some spacing around the content */
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Make the title stand out */
+    letter-spacing: 2px; /* Add some space between letters */
+}
+
+/* Section Styles */
+main section {
+    max-width: 800px; /* Restrict content width for better readability */
+    margin: 0 auto; /* Center content horizontally */
+    text-align: center;
+}
+
+main section img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add some space around the image */
+}
+
+main section p {
+    font-size: 1.2em; /* Slightly larger font for description */
+    margin-top: 10px;
+}
