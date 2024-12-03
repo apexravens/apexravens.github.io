@@ -9,11 +9,11 @@ body, h1, p {
 body {
     background-color: black; /* Black background */
     color: silver; /* Silver text color */
-    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    font-family: 'Arial', sans-serif; /* Default fallback font */
     line-height: 1.6; /* Better text readability */
-    text-align: center; /* Center-align text for consistency */
+    text-align: center; /* Center-align text */
     margin: 0;
-    padding: 20px; /* Add some spacing around the content */
+    padding: 20px;
 }
 
 /* Header Styles */
@@ -40,4 +40,23 @@ main section img {
 main section p {
     font-size: 1.2em; /* Slightly larger font for description */
     margin-top: 10px;
+}
+
+/* Orbitron Font Style */
+.orbitron-title {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Choose a weight between 400 and 900 */
+    font-style: normal;
+    text-transform: uppercase; /* Make it bold and distinct */
+    letter-spacing: 3px; /* Add a futuristic touch */
+    color: silver;
+}
+
+/* Apply Orbitron specifically to headers or custom text */
+.orbitron-light {
+    font-family: "Orbitron", serif;
+    font-weight: 400; /* Lighter weight for subtle text */
+    font-style: normal;
+    color: silver;
 }
